@@ -13,6 +13,7 @@ export default function Page() {
     return(
     <div className=" flex flex-col gap-6  md:w-full w-full md:mx-auto h-[80vh] justify-center items-center
     ">
+        <span className={` uppercase ${press.className}`}>Let’s work together</span>
 
         <div className="border flex flex-col px-4 md:px-10 py-6 rounded-lg gap-6 text-zinc-500 shadow-lg border-zinc-100/90
         bg-radial from-[#EEAECA]/50 via-[#EEAECA]/50 to-[#94BBE9]">
@@ -41,12 +42,15 @@ export default function Page() {
                     
         </div>
 
-        <div className="flex gap-4 justify-end items-center">
+        <div className="flex gap-4 justify-between items-center">
+            <Button to="/CV-Nattakarn.pdf" download className="px-2 py-1.5 text-zinc-500 border shadow-sm bg-white/30 border-white/50 text-sm rounded-md hover:uppercase hover:scale-110  hover:bg-fuchsia-100/50 hover:tracking-wider transition-all">
+                Download CV
+            </Button>
             <Button to="https://www.linkedin.com/in/nattakarn-baothong" blank className="px-2 py-1.5 text-zinc-500 border shadow-sm bg-white/30 border-white/50 text-sm rounded-md hover:uppercase hover:scale-110  hover:bg-fuchsia-100/50 hover:tracking-wider transition-all">
-                go to LinkedIn
+                Go to LinkedIn
             </Button>
             <Button to="https://github.com/natbt" blank className="px-2 py-1.5 text-sm border rounded-md shadow-sm text-zinc-500 bg-white/30 border-white/50  hover:uppercase hover:scale-110  hover:bg-fuchsia-100/50 hover:tracking-wider transition-all">
-                go to GitHub
+                Go to GitHub
             </Button>
 
         </div>

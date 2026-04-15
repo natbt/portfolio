@@ -57,7 +57,7 @@
         "pain":["High cost for minor updates and changes","Limited flexibility in adjusting UI and functionality","Dependency on external vendors reduced iteration speed"],
         "approach":["Collaborated with stakeholders to align on requirements for in-house control","Restructured frontend architecture to support scalability and frequent updates","Iterated on UI and layout based on marketing and design feedback"],
         "solution":["Redesigned frontend architecture for better maintainability and scalability","Built reusable UI components to support faster campaign updates","Optimized performance and responsiveness across devices"],
-        "impact": ["Reduced dependency on external vendors and associated costs","Increased speed and flexibility in deploying design and content updates","Enhanced overall user experience through more consistent and optimized UI"]
+        "impact": ["Reduced vendor cost and made updates faster","Increased speed and flexibility in deploying design and content updates","Enhanced overall user experience through more consistent and optimized UI"]
     }
 
 

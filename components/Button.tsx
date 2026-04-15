@@ -16,9 +16,10 @@ type ButtonProps = {
     className?: string
     blank?: boolean
     copy?: boolean
+    download?: boolean
 }
 
-export default function Button({ children, to, className, blank, copy }: ButtonProps) {
+export default function Button({ children, to, className, blank, copy, download }: ButtonProps) {
   const router = useRouter()
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const gifRef = useRef<HTMLImageElement | null>(null)
@@ -32,6 +33,15 @@ export default function Button({ children, to, className, blank, copy }: ButtonP
     if(blank) {
         window.open(to, '_blank')
         return
+    }
+
+    if(download) {
+        const link = document.createElement('a')
+        link.href = to
+        link.download = ''
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
     }
 
     sethidecursor(true)

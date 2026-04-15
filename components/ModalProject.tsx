@@ -5,18 +5,18 @@ import PaperClipIcon from "@heroicons/react/24/solid/esm/PaperClipIcon";
 import Link from "next/link";
 import { useState } from "react";
 
-type project = {
-  id: number;
-  title: string;
-  description: string;
-  link: string;
-  organization: string;
-  role: string[];
-  pain: string[];
-  approach: string[];
-  solution: string[];
-  impact: string[] | string;
-};
+// type project = {
+//   id: number;
+//   title: string;
+//   description: string;
+//   link: string;
+//   organization: string;
+//   role: string[];
+//   pain: string[];
+//   approach: string[];
+//   solution: string[];
+//   impact: string[] | string;
+// };
 
 export default function ModalProject({ id }: { id: number }) {
   const project = getProjects().find((p) => p.id === id);
@@ -45,7 +45,7 @@ export default function ModalProject({ id }: { id: number }) {
             {project && (
               <div className="space-y-4">
                 <div className="flex border-b pb-2 border-gray-100">
-                    <div className="text-lg font-bold uppercase flex-1 flex items-center">{project.title}
+                    <div className="text-lg font-bold uppercase flex-1 flex flex-col md:flex-row items-center">{project.title}
                         {project.link && (
                             <a href={project.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 ml-2 text-sm text-blue-500 hover:underline">
                                 <PaperClipIcon className="h-4 w-4 inline-block" /> open link

@@ -38,9 +38,9 @@ export default function Project({ selectedProject }: Props) {
     const count_frontend = sortedProjects.filter(p => p.role.includes("Frontend")).length;
 
     const roleColors = {
-    "Design System": { active: "bg-[#2168E1]", label: "bg-[#2168E1]/90 text-white",outline: " border-[#2168E1] text-[#2168E1]" },
-    "Wireframing": { active: "bg-[#A9E01D]",label: "bg-[#A9E01D]/90 text-white",outline: "border-[#A9E01D] text-[#A9E01D]" },
-    "Frontend": {active: "bg-[#E0381D]",label: "bg-[#E0381D]/90 text-white",outline: "border-[#E0381D] text-[#E0381D]" }
+    "Design System": { active: "bg-[#2168E1]", label: "bg-[#2168E1]/90 text-white",secondary: " bg-[#e3edff] text-[#2168E1]" },
+    "Wireframing": { active: "bg-[#A9E01D]",label: "bg-[#A9E01D]/90 text-white",secondary: " bg-[#f6ffdf] text-[#A9E01D]" },
+    "Frontend": {active: "bg-[#E0381D]",label: "bg-[#E0381D]/90 text-white",secondary: " bg-[#ffebe8] text-[#E0381D]" }
     };
 
   return (
@@ -79,8 +79,8 @@ export default function Project({ selectedProject }: Props) {
             <div className="flex gap-2 flex-wrap mt-3">
                 {p.role.map((i, r) => (
                     <div key={r} 
-                    className={ "my-1 text-sm flex justify-center items-center border  px-4 py-1.5 rounded-full whitespace-nowrap "
-                     + (p.id === selectedId  ? ((roleColors[i as Role].label || "")) : ((roleColors[i as Role].outline || ""))) }>
+                    className={ "my-1 text-sm flex justify-center items-center  px-4 py-1.5 rounded-full whitespace-nowrap "
+                     + (p.id === selectedId  ? ((roleColors[i as Role].label || "")) : ((roleColors[i as Role].secondary || ""))) }>
                         {i}
                     </div>
                 ))}
