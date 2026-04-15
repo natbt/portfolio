@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title":"CSR Service & Claim ",
+        "link":"",
+        "organization":"SABINA Fareast co. ltd,",
+        "description":"A web-based internal system for managing PC sales reports, service requests, and claim tracking.This project transformed a paper-based workflow into a centralized digital platform to reduce human error and improve visibility across operations.",
+        "role":["Design System","Wireframing","Frontend"],
+        "pain":["Human error during data collection","Difficulty tracking issues and claim history","Time-consuming report preparation and verification","Lack of real-time visibility for ongoing problems"],
+        "approach":["Analyzed paper-based processes and validated workflow with stakeholders","Designed a structured user flow to streamline report submission and tracking","Created wireframes to map key user interactions and system logic","Conducted internal workshops to gather feedback and align with real user needs","Iterated on design based on feedback before development"],
+        "solution":["Developed a dashboard-based interface for tracking reports and claims in real time","Built reusable UI components to ensure consistency and scalability","Implemented structured data input flows to reduce manual errors","Designed system navigation to simplify task completion and improve usability"],
+        "impact": ["Reduced manual data collection errors through structured input system","Improved efficiency in report preparation and submission","Enabled real-time tracking of service and claim status","Increased visibility across teams, making issues easier to monitor and resolve"]
+    },
+        {
+        "id": 2,
+        "title":"Marketing Campaign Manager ",
+        "link":"",
+        "organization":"SABINA Fareast co. ltd,",
+        "description":"A web-based internal tool,replaced fragmented Google Sheets/Excel workflows with a centralized platform, improving visibility, organization, and task management, designed to manage and track marketing artwork across multiple campaigns, stores, and work types.",
+        "role":["Design System","Wireframing"],
+        "pain":["Difficulty tracking artwork status across multiple campaigns and stores"," Complex categorization of artwork types and campaign variations","Inefficient time management due to scattered and manual tracking"],
+        "approach":["Analyzed different types of artwork and campaign structures with stakeholders","Designed a clear categorization system for artwork types and campaign grouping","Created user flows to simplify task tracking, assignment, and approval processes","Developed wireframes to map system behavior and interactions","Conducted internal workshops to validate workflows and gather feedback","Iterated on structure and flow based on real usage requirements"],
+        "solution":["Designed structured data input flows to standardize artwork tracking","Implemented clear mapping between artwork, work type, and responsible person","Created a scalable UI system to support multiple campaign scenarios","Simplified navigation to improve task management and reduce confusion"],
+        "impact": ["Improved efficiency in tracking artwork progress across campaigns","Reduced complexity in managing multiple artwork types","Enabled more structured and scalable workflow management","Improved coordination between teams involved in campaign execution"]
+    },
+            {
+        "id": 3,
+        "title":"PM Management ",
+        "link":"",
+        "organization":"SABINA Fareast co. ltd,",
+        "description":"A web-based internal system redesigned to manage POS allocation for temporary retail booths and sales events.The system helps coordinate POS usage across multiple locations, ensuring availability, proper tracking, and smooth operation during campaign periods.",
+        "role":["Wireframing","Design System"],
+        "pain":["Lack of visibility into POS usage and assignment","Difficulty managing bookings from UI struggling","Manual coordination caused delays in setup for sales operations"],
+        "approach":["Analyzed POS booking workflow and requirments from stakeholders","Redesigned the workflow to support clear booking, assignment, and status tracking","Structured system flow to reflect real operational scenarios (multi-location, multi-event usage)"],
+        "solution":["Designed a booking system to manage POS allocation across events and locations","Created a clear interface for tracking POS availability and assignment status","Simplified navigation to support fast decision-making during operations"],
+        "impact": ["Increased efficiency in preparing POS for temporary booths","Streamlined coordination between teams involved in retail operations"]
+    },
+            {
+        "id": 4,
+        "title":"Landing Pages ",
+        "link":"",
+        "organization":"SABINA Fareast co. ltd,",
+        "description":"Designed and developed multiple landing pages for marketing campaigns and product launches, focusing on improving product visibility, user engagement, and conversion.Worked closely with marketing and design teams to translate campaign concepts into clear, user-focused web experiences.",
+        "role":["Frontend"],
+        "pain":["Users had difficulty understanding the overall look and concept of each campaign"],
+        "approach":["Collaborated with marketing and design teams to understand campaign goals"],
+        "solution":["Developed responsive landing pages using modern frontend technologies"],
+        "impact": ["Improved clarity of campaign messaging for online users","Supported marketing goals by improving overall campaign presentation"]
+    },
+            {
+        "id": 5,
+        "title":"Brand website (In-house Migration)",
+        "link":"https://shop.sabina.co.th",
+        "organization":"SABINA Fareast co. ltd,",
+        "description":"Led the transition of the brand website from outsourced development to an in-house system, improving flexibility, maintainability, and speed of iteration. Collaborated with marketing and design teams to build a scalable frontend structure that supports ongoing campaign updates and evolving business needs.",
+        "role":["Frontend","Design System","Wireframing"],
+        "pain":["High cost for minor updates and changes","Limited flexibility in adjusting UI and functionality","Dependency on external vendors reduced iteration speed"],
+        "approach":["Collaborated with stakeholders to align on requirements for in-house control","Restructured frontend architecture to support scalability and frequent updates","Iterated on UI and layout based on marketing and design feedback"],
+        "solution":["Redesigned frontend architecture for better maintainability and scalability","Built reusable UI components to support faster campaign updates","Optimized performance and responsiveness across devices"],
+        "impact": ["Reduced dependency on external vendors and associated costs","Increased speed and flexibility in deploying design and content updates","Enhanced overall user experience through more consistent and optimized UI"]
+    }
+
+
+]
