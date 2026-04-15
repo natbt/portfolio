@@ -1,6 +1,6 @@
 'use client'
 
-import Link from "next/dist/client/link";
+import Link from "next/link";
 import { getProjects } from "@/app/lib/getProjects";
 import ModalProject from "./ModalProject";
 import { PaperClipIcon } from "@heroicons/react/24/outline";

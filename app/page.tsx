@@ -40,10 +40,10 @@ export default function Home() {
         <div className='flex flex-col mt-6 gap-4 w-full px-4'>
           <span className={`${press.className}`}>Hobbies</span>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-4 w-full'>
-            <img className='w-full h-full object-cover' src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3BmZjdtczBldzRpcm9lem5wejV1Z2FscHJsenF3eG16ZHc3ZndqcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoWm8YzFQJg5i/giphy.gif" alt="Header Image" />
-            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHY1cXB1bDZidGxrbW5jN29sdjl2N21xMnVueW00NXF0eXgyanpvOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gQJyPqc6E4xoc/giphy.gif" alt="Hobby Image" />
-            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM290eWR3aWY1YjFxMXVseTExbjBqYWwxcXZxb2pwbGF3Y284Y2NpdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TTPi3fB9F5Aqs/giphy.gif" alt="Hobby Image" />
-            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmYxcG43aHd1c21ucHJzNGRod3FmYWtjdnJvdW4zZXMzYXRseWlwcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7DIF9HAz65YE8/giphy.gif" alt="Hobby Image" />
+            <img className='w-full h-full object-cover' src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3BmZjdtczBldzRpcm9lem5wejV1Z2FscHJsenF3eG16ZHc3ZndqcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoWm8YzFQJg5i/giphy.gif" alt="wanna guess?" />
+            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHY1cXB1bDZidGxrbW5jN29sdjl2N21xMnVueW00NXF0eXgyanpvOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gQJyPqc6E4xoc/giphy.gif" alt="wanna guess?" />
+            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM290eWR3aWY1YjFxMXVseTExbjBqYWwxcXZxb2pwbGF3Y284Y2NpdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TTPi3fB9F5Aqs/giphy.gif" alt="wanna guess?" />
+            <img className='w-full h-full object-cover' src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmYxcG43aHd1c21ucHJzNGRod3FmYWtjdnJvdW4zZXMzYXRseWlwcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7DIF9HAz65YE8/giphy.gif" alt="wanna guess?" />
           </div>
         </div>
 

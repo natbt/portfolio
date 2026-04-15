@@ -2,7 +2,7 @@
 
 import { getProjects } from "@/app/lib/getProjects";
 import PaperClipIcon from "@heroicons/react/24/solid/esm/PaperClipIcon";
-import Link from "next/dist/client/link";
+import Link from "next/link";
 import { useState } from "react";
 
 type project = {

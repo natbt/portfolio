@@ -27,7 +27,12 @@ export default function Button({ children, to, className, blank, copy }: ButtonP
 
   const handleClick = (e: React.MouseEvent) => {
 
-    const copyText = copy && 'Copied!' 
+    const copyText = copy && 'Copied!'
+    
+    if(blank) {
+        window.open(to, '_blank')
+        return
+    }
 
     sethidecursor(true)
 
