@@ -45,7 +45,7 @@ export default function Project({ selectedProject }: Props) {
 
   return (
   <>
-  <div className="flex w-full flex-wrap  items-center  gap-2 md:gap-4 uppercase px-6">
+  <div className="flex w-full flex-wrap  items-center  gap-2 md:gap-4 uppercase px-4 md:px-6">
             <div className={"flex justify-center text-sm gap-6 items-center shadow-sm " + roleColors["Design System"].active + " text-white p-4 rounded-md  "}>
             Design System
             <span className="text-4xl font-bold">{ count_designSystem}</span>

@@ -6,7 +6,7 @@ export default function Page() {
     return(
         < div className="w-full">
 
-        <div className="mt-10 px-2">
+        <div className="mt-4 px-2">
            <Project selectedProject={5} />
            
         </div>

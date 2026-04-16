@@ -23,7 +23,7 @@ export default function Home() {
           <span>Open to UI Engineer roles (Hybrid | Bangkok)</span>
 
         </div>
-        <div className="mt-4 flex flex-col md:flex-row gap-4 ">
+        <div className="mt-4 flex flex-col md:flex-row gap-4 overflow-x-auto">
             <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/5p8i6Pp37EBIqceXmfnrxa?utm_source=generator" width="100%" height="352"  allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <iframe data-testid="embed-iframe" style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/track/4EI8VuxUuIHKfafU72emqz?utm_source=generator" width="100%" height="352"  allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <iframe data-testid="embed-iframe" style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/track/0kEplasbmZGhmSvotJRqBM?utm_source=generator" width="100%" height="352"  allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
